@@ -1,0 +1,30 @@
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "GT Cinetype Regular";
+    color: white;
+}
+body{
+    background-color: #f4f3f0;
+}
+@font-face {
+    font-family: 'Northwell';
+    src: local('Northwell'),
+         url('/fonts/font.ttf') format('ttf'),
+  }
+@import "..//css/add/header.scss";
+@import "..//css/add/first.scss";
+@import "..//css/add/second.scss";
+@import "..//css/add/third.scss";
+@import "..//css/add/selector.scss";
+@import "..//css/add/kids.scss";
+@import "..//css/add/boy.scss";
+@import "..//css/add/goods.scss";
+@import "..//css/add/transperent.scss";
+@import "..//css/add/footer.scss";
+@import "..//css/add/media.scss";
+@import "..//css/add/mixin.scss";

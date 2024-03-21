@@ -1,0 +1,100 @@
+@media screen and (max-width: 1024px){
+    .container{
+        margin: 0 auto;
+    }
+    .middle_bottons{
+        width: 30%;
+    }
+    .botton_header{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .boy_text{
+        font-size: 50px;
+    }
+    .second_images img:first-child{
+        width: 90%;
+    }
+    .second_text{
+        margin-left: 10%;;
+        margin-right: 10%;
+    }
+    .first_title{
+        font-size: 40px;
+    }
+    .pre_title{
+        font-size: 90%;
+    }
+    .second_main_text{
+        font-size: 90%;
+    }
+    .third{
+        margin-left: 15%;
+    }
+    .third_images{
+        margin-right: 5%;
+    }
+    .selector_img{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .selector_img img:first-child{
+        width: 170%;
+    }
+    .kids_img img{
+        width: 100%;
+    }
+    .kids_grey{
+        width: 70%;
+    }
+    .kids_title{
+        font-size: 50px;
+    }
+    .cloth{
+        width: 70%;
+    }
+    .kids{
+        height: 70%;
+    }
+    .boy{
+        width: 70%;
+    }
+    footer{
+        display: block;
+        padding-top: 1px;
+    }
+    .footer_form{
+        margin-top: 5%;
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .email{
+        margin-bottom: 5%;
+    }
+    .footer_links{
+        margin-left: 50%;
+        transform: translateX(-50%);
+    }
+    .kite{
+        display: none;
+    }
+    .t_shirt{
+        width: 50%;
+    }
+    .email form{
+        width: 140%;
+        
+    }
+    .imin{
+        right: -10%;
+    }
+    .lets_play{
+        transform: scale(90%);
+    }
+    .leaf_5{
+        display: none;
+    }
+    html{
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,76 @@
+.makasins{
+    margin-left: 30%;
+    margin-bottom: 10%;
+    margin-top: 50%;    
+}
+.kids{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    margin-bottom: 10%;
+
+    &_grey{
+        background-color: #ADBBC4;
+        width: 720px;
+        padding: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 560px;
+    }
+
+    &_title{
+        font-family: Northwell;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 64px;
+        letter-spacing: 0em;
+        text-align: center;
+    }
+
+    &_text{
+        font-family: GT Cinetype Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+        max-width: 314px;
+    }
+
+    &_img{
+        margin-top: 4px;
+    }
+
+    &_img_text{
+        font-family: GT Cinetype Regular;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $main_green;
+        text-transform: uppercase;
+        max-width: 398px;
+    }
+}
+.cloth{
+    margin-top: 20%;
+}
+.zvezda{
+    font-family: Northwell;
+    font-size: 140px;
+    font-weight: 400;
+    line-height: 140px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $main_gold;
+    height: 24px;
+}
+.footer_kids{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 25%;
+    margin-top: -9%;
+}

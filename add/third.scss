@@ -1,0 +1,21 @@
+.doll{
+    position: absolute;
+    right: 80%;
+}
+.third{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#50735F;
+    margin-bottom: 5%;
+    margin-left: 30%;
+
+    .second_text{
+        margin-bottom: 120px;
+    }
+    
+    &_images{
+        position: relative;
+        margin-right: 30%;
+    }
+}

@@ -1,0 +1,78 @@
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#50735F;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+    &_title{
+        font-family: Linotype Didot Std;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 48px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: $main_green;
+        max-width: 242px;
+        margin-top: 3%;
+    }
+    &_overhead{
+        font-size: 14px;
+        @include font;
+        text-align: left;
+        text-transform: uppercase;
+    }
+    &_text_main{
+        font-size: 14px;
+        @include font;
+        text-align: left;
+        max-width: 290px;
+        margin-top: 10%;
+    }
+    &_images{
+        position: relative;
+        margin-right: 35px;
+    }
+    &_text{
+        float: left;
+    }
+    &_button{
+        background-color: #fff;
+        border: 2px solid $main_green;
+        width: 169px;
+        height: 50px;
+        border-radius: 32px;
+        span{
+            color: $main_green;
+        }
+    }
+    .buy_botton{
+        margin-left: -25%;
+    }
+}
+.leaf_draw{
+    position: absolute;
+    left: -40%;
+}
+.kid{
+    position: absolute;
+    left: -30%;
+    bottom: -10%;
+}
+.TreeHouse{
+    position: absolute;
+    left: -15%;
+    bottom: -25%;
+}
+.arrow_first{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid $main_green;
+}

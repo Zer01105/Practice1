@@ -1,0 +1,171 @@
+.sale{
+    background-color: $main_green;
+    font-size: 14px;
+    line-height: 14px;
+    height: 46px;
+    text-align: center;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span{
+        display: inline-block;
+        vertical-align: middle;
+    }
+}
+.content_header{
+    background-image: url("images/main_bg.png");
+    height: 700px;
+    position: relative;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img{
+        margin-left: 5%;
+    }
+}
+.middle_bottons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: row;
+}
+.right_bottons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-right: 5%;
+}
+.botton_header{
+    margin-right: 15%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    white-space: nowrap;
+    &:hover{
+        cursor: pointer;
+        color: $main_gold;
+    }
+}
+.right_bottons {
+    .botton_header{
+        display: flex;
+        justify-content: center;
+        &:hover{
+            color: $main_gold;
+            transition: 0.3s;
+        }
+        img{
+            margin-right: 10%;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+        input[type="text"]{
+            width: 60px;
+            background: transparent;
+            border: none;
+            &::placeholder{
+                color: white;
+                margin-right: 15%;
+                font-size: 14px;
+                font-weight: 400;
+                line-height: 14px;
+                white-space: nowrap;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+        
+    }
+}
+h1,h2{
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 64px;
+    font-family: "Linotype Didot Std Roman";
+    margin-top: 10px;
+}
+h2{
+    margin-left: -30%;
+    margin-bottom: 15px;
+}
+h3{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+}
+h4{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.6px;
+    max-width: 314px;
+    margin-top: 5px;
+}
+.main_text{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.buy_botton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.shop_botton{
+    @include button;
+}
+.arrow{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: $main_gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.additional{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 14px;
+    text-align: center;
+}
+.header_bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.scroll{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    img{
+        transform: rotate(90deg);
+        position: absolute;
+        left: 35px;
+        bottom: -4px;
+    }
+    a{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 14px;
+        letter-spacing: 0em;
+        text-align: center;
+        text-decoration: none;
+    }
+}
